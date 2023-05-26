@@ -1,0 +1,38 @@
+.menuList {
+    background-color: black;
+    width: 295px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menu, .cardACountMatrix, .boxBlueButton {
+    color: white;
+    width: 290px;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 8px 1rem 8px;
+}
+
+.init-button {
+    padding: 12px;
+    /* margin-bottom: 12px; */
+    margin-left: 12px;
+    border-radius: 32px;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+
+.init-button:hover {
+    background-color: #1b1b1b;
+}
